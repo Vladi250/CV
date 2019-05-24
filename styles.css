@@ -1,0 +1,37 @@
+:root {
+    font-family: 'Century Gothic', 'Arial', sans-serif;
+    --color-yellow: rgb(247, 192, 41)
+}
+
+.title {
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+    color: gray;
+    border: 2px solid var(--color-yellow);
+}
+
+.title__text {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.subtitle__text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.content {
+    margin: 30px;
+}
+
+.content__text {
+    padding: 15px;
+}
+
+.main-image {
+    width: 20%;
+    margin-left: 15px;
+    float: right;
+    border: 10px solid var(--color-yellow);
+}
